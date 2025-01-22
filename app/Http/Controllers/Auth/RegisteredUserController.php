@@ -32,13 +32,17 @@ class RegisteredUserController extends Controller
     {
         $request->validate([
             'name' => ['required', 'string', 'max:255'],
+            'phone' => ['required', 'numeric', 'unique:'.User::class],
             'email' => ['required', 'string', 'lowercase', 'email', 'max:255', 'unique:'.User::class],
             'password' => ['required', 'confirmed', Rules\Password::defaults()],
         ]);
 
         $user = User::create([
+            'user_name' => str_replace(' ','',$request->name),
             'name' => $request->name,
             'email' => $request->email,
+            'phone' => $request->phone,
+            'status' => 0,
             'password' => Hash::make($request->password),
         ]);
 
