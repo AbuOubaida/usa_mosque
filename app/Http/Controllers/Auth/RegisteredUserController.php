@@ -46,10 +46,17 @@ class RegisteredUserController extends Controller
             'password' => Hash::make($request->password),
         ]);
 
+        if (count(User::all()) == 1) {
+            $user->update(['status' => 1]);
+            $user->addRole('superadministrator');
+        }
+        else {
+            $user->addRole('user');
+        }
         event(new Registered($user));
-
-        Auth::login($user);
-
-        return redirect(RouteServiceProvider::HOME);
+        return back()->with('success', 'Data has been saved successfully');
+//        Auth::login($user);
+//
+//        return redirect(RouteServiceProvider::HOME);
     }
 }
