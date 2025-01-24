@@ -1,5 +1,6 @@
 <?php
 
+use App\Http\Controllers\Home\IndexController;
 use App\Http\Controllers\ProfileController;
 use Illuminate\Support\Facades\Route;
 
@@ -14,8 +15,9 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::get('/', function () {
-    return view('welcome');
+
+Route::controller(IndexController::class)->group(function (){
+    Route::match(['get','post'],'/','index')->name('home');
 });
 
 Route::get('/dashboard', function () {
