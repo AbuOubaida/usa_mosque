@@ -138,7 +138,7 @@
                         <li><i class="bi bi-check2-all"></i> <span><strong>Hajj (Pilgrimage):</strong>The pilgrimage to the holy city of Mecca is mandatory at least once in a lifetime for those who are physically and financially able</span></li>
                     </ul>
                 </div>
-                <div class="col-md-12 text-center" data-aos="fade-up" data-aos-delay="100">
+                <div class="col-md-12 text-center" data-aos="fade-in" data-aos-delay="100">
                     <a href="#about" class="btn-get-started read-more-btn">Read More</a>
                 </div>
             </div>
@@ -216,87 +216,82 @@
         </div>
     </section><!-- /Services Section -->
 
-    <!-- Features Section -->
-    <section id="features" class="features section">
-
+    <!-- Blog Posts Section -->
+    <section id="blog-posts" class="blog-posts section">
         <!-- Section Title -->
-        <div class="container section-title" data-aos="fade-up">
-            <h2>Features</h2>
-            <p>Necessitatibus eius consequatur ex aliquid fuga eum quidem sint consectetur velit</p>
+        <div class="container section-title" data-aos="fade-in">
+            <h2 class="text-capitalize">Recent Blogs</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cupiditate, incidunt</p>
         </div><!-- End Section Title -->
+        <div class="container-fluid">
+            <div class="row gy-4">
+                <div class="col" data-aos="fade-right" data-aos-delay="300">
+                    <article>
+                        <div class="post-img">
+                            <img src="{{url("assets/home/image/hero-bg-01.jpg")}}" alt="" class="img-fluid">
+                        </div>
+                        <p class="post-category">Islamic</p>
+                        <h2 class="title">
+                            <a href="blog-details.html">Lorem ipsum dolor sit amet.</a>
+                        </h2>
+                        <div class="d-flex align-items-center">
+                            <img src="{{url("assets/home/image/author.jpg")}}" alt="" class="img-fluid post-author-img flex-shrink-0">
+                            <div class="post-meta">
+                                <p class="post-author">Admin</p>
+                                <p class="post-date">
+                                    <time datetime="2025-01-01">Jan 1, 2025</time>
+                                </p>
+                            </div>
+                        </div>
+                    </article>
+                </div><!-- End post list item -->
+                <div class="col" data-aos="fade-in" data-aos-delay="400">
+                    <article>
+                        <div class="post-img">
+                            <img src="{{url("assets/home/image/5 pillars of islam.webp")}}" alt="" class="img-fluid">
+                        </div>
+                        <p class="post-category">Islamic</p>
+                        <h2 class="title">
+                            <a href="blog-details.html">Lorem ipsum dolor sit amet.</a>
+                        </h2>
+                        <div class="d-flex align-items-center">
+                            <img src="{{url("assets/home/image/author.jpg")}}" alt="" class="img-fluid post-author-img flex-shrink-0">
+                            <div class="post-meta">
+                                <p class="post-author">Admin</p>
+                                <p class="post-date">
+                                    <time datetime="2025-01-01">Jan 1, 2025</time>
+                                </p>
+                            </div>
+                        </div>
+                    </article>
+                </div><!-- End post list item -->
+                <div class="col" data-aos="fade-left" data-aos-delay="300">
+                    <article>
+                        <div class="post-img">
+                            <img src="{{url("assets/home/image/Teaching Al-Quran.webp")}}" alt="" class="img-fluid">
+                        </div>
+                        <p class="post-category">Islamic</p>
+                        <h2 class="title">
+                            <a href="blog-details.html">Lorem ipsum dolor sit amet.</a>
+                        </h2>
+                        <div class="d-flex align-items-center">
+                            <img src="{{url("assets/home/image/author.jpg")}}" alt="" class="img-fluid post-author-img flex-shrink-0">
+                            <div class="post-meta">
+                                <p class="post-author">Admin</p>
+                                <p class="post-date">
+                                    <time datetime="2025-01-01">Jan 1, 2025</time>
+                                </p>
+                            </div>
+                        </div>
+                    </article>
+                </div><!-- End post list item -->
 
-        <div class="container">
+                <div class="col-md-12 text-center" data-aos="fade-in" data-aos-delay="100">
+                    <a href="#about" class="btn-get-started read-more-btn">Read More</a>
+                </div>
 
-            <div class="row gy-4 align-items-center features-item">
-                <div class="col-md-5 d-flex align-items-center" data-aos="zoom-out" data-aos-delay="100">
-                    <img src="assets/img/features-1.svg" class="img-fluid" alt="">
-                </div>
-                <div class="col-md-7" data-aos="fade-up" data-aos-delay="100">
-                    <h3>Voluptatem dignissimos provident quasi corporis voluptates sit assumenda.</h3>
-                    <p class="fst-italic">
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
-                        magna aliqua.
-                    </p>
-                    <ul>
-                        <li><i class="bi bi-check"></i><span> Ullamco laboris nisi ut aliquip ex ea commodo consequat.</span></li>
-                        <li><i class="bi bi-check"></i> <span>Duis aute irure dolor in reprehenderit in voluptate velit.</span></li>
-                        <li><i class="bi bi-check"></i> <span>Ullam est qui quos consequatur eos accusamus.</span></li>
-                    </ul>
-                </div>
-            </div><!-- Features Item -->
-
-            <div class="row gy-4 align-items-center features-item">
-                <div class="col-md-5 order-1 order-md-2 d-flex align-items-center" data-aos="zoom-out" data-aos-delay="200">
-                    <img src="assets/img/features-2.svg" class="img-fluid" alt="">
-                </div>
-                <div class="col-md-7 order-2 order-md-1" data-aos="fade-up" data-aos-delay="200">
-                    <h3>Corporis temporibus maiores provident</h3>
-                    <p class="fst-italic">
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
-                        magna aliqua.
-                    </p>
-                    <p>
-                        Ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate
-                        velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
-                        culpa qui officia deserunt mollit anim id est laborum
-                    </p>
-                </div>
-            </div><!-- Features Item -->
-
-            <div class="row gy-4 align-items-center features-item">
-                <div class="col-md-5 d-flex align-items-center" data-aos="zoom-out">
-                    <img src="assets/img/features-3.svg" class="img-fluid" alt="">
-                </div>
-                <div class="col-md-7" data-aos="fade-up">
-                    <h3>Sunt consequatur ad ut est nulla consectetur reiciendis animi voluptas</h3>
-                    <p>Cupiditate placeat cupiditate placeat est ipsam culpa. Delectus quia minima quod. Sunt saepe odit aut quia voluptatem hic voluptas dolor doloremque.</p>
-                    <ul>
-                        <li><i class="bi bi-check"></i> <span>Ullamco laboris nisi ut aliquip ex ea commodo consequat.</span></li>
-                        <li><i class="bi bi-check"></i><span> Duis aute irure dolor in reprehenderit in voluptate velit.</span></li>
-                        <li><i class="bi bi-check"></i> <span>Facilis ut et voluptatem aperiam. Autem soluta ad fugiat</span>.</li>
-                    </ul>
-                </div>
-            </div><!-- Features Item -->
-
-            <div class="row gy-4 align-items-center features-item">
-                <div class="col-md-5 order-1 order-md-2 d-flex align-items-center" data-aos="zoom-out">
-                    <img src="assets/img/features-4.svg" class="img-fluid" alt="">
-                </div>
-                <div class="col-md-7 order-2 order-md-1" data-aos="fade-up">
-                    <h3>Quas et necessitatibus eaque impedit ipsum animi consequatur incidunt in</h3>
-                    <p class="fst-italic">
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
-                        magna aliqua.
-                    </p>
-                    <p>
-                        Ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate
-                        velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
-                        culpa qui officia deserunt mollit anim id est laborum
-                    </p>
-                </div>
-            </div><!-- Features Item -->
-
+            </div>
         </div>
 
-    </section><!-- /Features Section -->
+    </section><!-- /Blog Posts Section -->
 @stop

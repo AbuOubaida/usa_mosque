@@ -19,40 +19,40 @@
     <div class="container footer-top">
         <div class="row gy-4">
             <div class="col-lg-4 col-md-6 footer-about">
-                <a href="index.html" class="d-flex align-items-center">
-                    <span class="sitename">Moderna</span>
+                <a href="{{route("home")}}" class="d-flex align-items-center">
+                    <span class="sitename">{{config("app.name")}}</span>
                 </a>
                 <div class="footer-contact pt-3">
-                    <p>A108 Adam Street</p>
-                    <p>New York, NY 535022</p>
-                    <p class="mt-3"><strong>Phone:</strong> <span>+1 5589 55488 55</span></p>
-                    <p><strong>Email:</strong> <span>info@example.com</span></p>
+                    <p>Steel creek</p>
+                    <p>Charlotte, North Carolina, USA</p>
+                    <p class="mt-3"><strong>Phone:</strong> <span>+1 0000 00000 00</span></p>
+                    <p><strong>Email:</strong> <span>info@mosque.com</span></p>
                 </div>
             </div>
 
             <div class="col-lg-2 col-md-3 footer-links">
-                <h4>Useful Links</h4>
-                <ul>
-                    <li><i class="bi bi-chevron-right"></i> <a href="#">Home</a></li>
-                    <li><i class="bi bi-chevron-right"></i> <a href="#">About us</a></li>
-                    <li><i class="bi bi-chevron-right"></i> <a href="#">Services</a></li>
-                    <li><i class="bi bi-chevron-right"></i> <a href="#">Terms of service</a></li>
-                </ul>
+{{--                <h4>Useful Links</h4>--}}
+{{--                <ul>--}}
+{{--                    <li><i class="bi bi-chevron-right"></i> <a href="#">Home</a></li>--}}
+{{--                    <li><i class="bi bi-chevron-right"></i> <a href="#">About us</a></li>--}}
+{{--                    <li><i class="bi bi-chevron-right"></i> <a href="#">Services</a></li>--}}
+{{--                    <li><i class="bi bi-chevron-right"></i> <a href="#">Terms of service</a></li>--}}
+{{--                </ul>--}}
             </div>
 
             <div class="col-lg-2 col-md-3 footer-links">
-                <h4>Our Services</h4>
-                <ul>
-                    <li><i class="bi bi-chevron-right"></i> <a href="#">Web Design</a></li>
-                    <li><i class="bi bi-chevron-right"></i> <a href="#">Web Development</a></li>
-                    <li><i class="bi bi-chevron-right"></i> <a href="#">Product Management</a></li>
-                    <li><i class="bi bi-chevron-right"></i> <a href="#">Marketing</a></li>
-                </ul>
+{{--                <h4>Our Services</h4>--}}
+{{--                <ul>--}}
+{{--                    <li><i class="bi bi-chevron-right"></i> <a href="#">Web Design</a></li>--}}
+{{--                    <li><i class="bi bi-chevron-right"></i> <a href="#">Web Development</a></li>--}}
+{{--                    <li><i class="bi bi-chevron-right"></i> <a href="#">Product Management</a></li>--}}
+{{--                    <li><i class="bi bi-chevron-right"></i> <a href="#">Marketing</a></li>--}}
+{{--                </ul>--}}
             </div>
 
             <div class="col-lg-4 col-md-12">
                 <h4>Follow Us</h4>
-                <p>Cras fermentum odio eu feugiat lide par naso tierra videa magna derita valies</p>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Adipisci, possimus.</p>
                 <div class="social-links d-flex">
                     <a href=""><i class="bi bi-twitter-x"></i></a>
                     <a href=""><i class="bi bi-facebook"></i></a>
@@ -65,14 +65,9 @@
     </div>
 
     <div class="container copyright text-center mt-4">
-        <p>© <span>Copyright</span> <strong class="px-1 sitename">Moderna</strong> <span>All Rights Reserved</span></p>
+        <p>© <span>Copyright</span> <strong class="px-1 sitename">{{config("app.name")}}</strong> <span>All Rights Reserved</span></p>
         <div class="credits">
-            <!-- All the links in the footer should remain intact. -->
-            <!-- You can delete the links only if you've purchased the pro version. -->
-            <!-- Licensing information: https://bootstrapmade.com/license/ -->
-            <!-- Purchase the pro version with working PHP/AJAX contact form: [buy-url] -->
-            Designed by <a href="https://bootstrapmade.com/">BootstrapMade</a>
+            Develop by <a href="https://github.com/abuoubaida">Abu Oubaida</a>
         </div>
     </div>
-
 </footer>
