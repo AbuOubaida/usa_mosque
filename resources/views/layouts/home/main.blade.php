@@ -11,7 +11,13 @@
         <link href="assets/img/favicon.png" rel="icon">
         <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
     {{--    CSS--}}
+        <style>
+            .hero::after {
+                background: linear-gradient(to right, color-mix(in srgb, var(--background-color), transparent 90%), var(--background-color)), url("{{url("assets/home/image/hero-bg-02.jpeg")}}") center top no-repeat;
+            }
+        </style>
         <x-home.header_link/>
+
         <meta name="csrf-token" content="{{ csrf_token() }}" />
 
     </head>

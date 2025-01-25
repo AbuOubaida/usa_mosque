@@ -2,7 +2,7 @@
 @section('mainContent')
     <!-- Hero Section -->
     <section id="hero" class="hero section dark-background">
-        <!-- <img src="assets/img/hero-bg.jpg" alt="" data-aos="fade-in"> -->
+{{--        <img src="{{url("assets/home/image/5 pillars of islam.webp")}}" alt="" data-aos="fade-in">--}}
         <div id="hero-carousel" class="carousel carousel-fade" data-bs-ride="carousel" data-bs-interval="5000">
             <div class="container position-relative">
                 <div class="carousel-item active">
