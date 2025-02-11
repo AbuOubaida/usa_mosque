@@ -36,6 +36,35 @@
             </ul>
             <i class="mobile-nav-toggle d-xl-none bi bi-list"></i>
         </nav>
-
+        <button href="#about" class="btn donate-outline-btn" data-bs-toggle="modal" data-bs-target="#donationModal">Donation</button>
     </div>
 </header>
+<!-- Modal -->
+<div class="modal fade" id="donationModal" tabindex="-1" aria-labelledby="donationModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-xl modal-dialog-centered modal-dialog-scrollable">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h1 class="modal-title fs-5" id="donationModalLabel">Choose a donation medium</h1>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+                <div class="row">
+                    <div class="col-sm-6 text-center paypal">
+                        <div class="paypal-img">
+                            <img src="{{url("assets/home/image/paypal-784404_1280.webp")}}" alt="" width="75%" height="100%">
+                        </div>
+                        <button href="#about" class="btn donate-outline-btn mt-3" >Donate Now</button>
+                    </div>
+                    <div class="col-sm-6 text-center">
+                        <img src="{{url("assets/home/image/card payment.jpg")}}" alt="" width="100%">
+                        <button href="#about" class="btn donate-outline-btn mt-3" >Donate Now</button>
+                    </div>
+                </div>
+            </div>
+            <div class="modal-footer">
+{{--                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>--}}
+{{--                <button type="button" class="btn btn-primary">Save changes</button>--}}
+            </div>
+        </div>
+    </div>
+</div>
