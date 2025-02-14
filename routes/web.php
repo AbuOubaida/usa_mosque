@@ -34,7 +34,7 @@ Route::middleware(['auth', 'verified'])->group(function () {
         Route::prefix('pages')->group(function (){
             Route::get('/home','home')->name('home.page');
             Route::patch('/home','homeUpdate')->name('home.update');
-            Route::get('/about','about')->name('about');
+            Route::get('/about','about')->name('about.page');
             Route::patch('/about','aboutUpdate')->name('about.update');
             Route::get('/contact','contact')->name('contact');
             Route::patch('/contact','contactUpdate')->name('contact.update');

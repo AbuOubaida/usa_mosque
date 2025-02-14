@@ -1,17 +1,23 @@
-<x-app-layout>
-    <x-slot name="header">
-        <h2 class="font-semibold text-xl text-gray-800 dark:text-gray-200 leading-tight">
-            {{ __('Dashboard') }}
-        </h2>
-    </x-slot>
+@extends('layouts.back-end.main')
+@section('mainContent')
+    <div class="container-fluid px-4">
+        {{--    <h1 class="mt-4">{{str_replace('-', ' ', config('app.name'))}}</h1>--}}
+        <ol class="breadcrumb mb-4">
+            <li class="breadcrumb-item"><a href="{{route('dashboard')}}" class="text-capitalize text-black">{{str_replace('.', ' ', \Route::currentRouteName())}}</a></li>
+        </ol>
+        <div class="card mb-4">
+            <div class="card-header">
+                {{--            <h1>Welcome to {{str_replace('-', ' ', config('app.name'))}} Smart Application</h1>--}}
+                <h2>Welcome to {{str_replace('.', ' ', \Route::currentRouteName())}}</h2>
+            </div>
+            <div class="card-body">
+                <div class="row mt-3">
 
-    <div class="py-12">
-        <div class="max-w-12xl mx-auto sm:px-6 lg:px-8">
-            <div class="bg-white dark:bg-gray-800 overflow-hidden shadow-sm sm:rounded-lg">
-                <div class="p-6 text-gray-900 dark:text-gray-100">
-                    {{ __("You're logged in!") }}
                 </div>
             </div>
         </div>
+
     </div>
-</x-app-layout>
+@stop
+
+
